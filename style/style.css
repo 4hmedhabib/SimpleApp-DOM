@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 600px;
     margin: auto;
     background-color: #e5e5e5;
     position: relative;
@@ -112,4 +112,16 @@ li {
 li font {
     font-weight: bold;
     font-family: monospace;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 400px;
+    }
 }
